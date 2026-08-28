@@ -1,0 +1,5 @@
+frase=input('ingrese su nombre: ')
+primera_letras_mayus=frase.title()
+mayus=frase.upper()
+minus=frase.lower()
+print(f'frase original: {frase}, primera mayuscula: {primera_letras_mayus}, toda mayuscula: {mayus} y toda minuscula: {minus}')

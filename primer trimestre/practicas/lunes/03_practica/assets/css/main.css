@@ -1,0 +1,33 @@
+body {
+            background: #e9e6e7;
+            color: #5e5653;
+        }
+        h1 {
+            color: #af9ac9;
+            border-left: 1px solid #666166;
+            border-right: 2px dashed #a5937b;
+            border-bottom: 3px dotted #af9ac9;
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/044/185/680/small_2x/star-sparkle-icon-futuristic-shapes-christmas-stars-icons-flashes-from-fireworks-png.png);
+            background-size: 1.5rem;
+            background-repeat: no-repeat;
+            background-position: bottom 5px right;
+        }
+        div {
+            background-image: url(https://d3a9n3quhe2vf1.cloudfront.net/img/article/cuanto-gana-un-desarrollador-de-software.webp);
+            width: 70%;
+            height: 15rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #primer-parrafo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .parrafo {
+            font-size: 9px;
+        }
+        .negrita {
+            font-weight: 700;
+        }
+        .delgada {
+            font-weight: 100;
+        }

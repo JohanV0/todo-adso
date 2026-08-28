@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    column-count: 3;
+    padding: 32px;
+    column-gap: 32px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    display: block;
+
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200px;
+    z-index: 1;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: 0 100px;
+        scale: .5;
+    }
+    to {
+        opacity: 1;
+        transform: 0 0;
+        scale: 1;
+    }
+}
+
+@keyframes enhance-header {
+    to {
+        background: rgba(255, 255, 255, .4);
+        backdrop-filter: blur(5px);
+        font-size: 18px;
+        color: black;
+    }
+}

@@ -1,0 +1,75 @@
+.pulser { /*primera forma de hacerlo*/
+    width: 30px;
+    height: 30px;
+    background: #09f;
+    border-radius: 50%;
+    position: relative;
+    transition: 
+        scale 2s ease-in-out,
+        background 2.5s ease-out,
+        box-shadow 2s ease-in-out;
+}
+.pulser:hover {
+    scale: 2;
+    background: purple;
+    box-shadow: 0 0 10px purple;
+}
+header{
+    display: grid;
+    place-content: center;
+}
+nav{
+    padding: 1rem 1rem;
+    background-color: pink;
+    border-radius: 5px;
+}
+.animaciones{
+    display: flex;
+    place-content: center;
+    position: relative;
+    padding-top: 4rem;
+}
+/*.pulser { segunda forma
+    width: 30px;
+    height: 30px;
+    background: #09f;
+    border-radius: 50%;
+    position: relative;
+    transition: all 2s ease;
+}
+.pulser:hover {
+    scale: 2;
+    background: purple;
+    box-shadow: 0 0 10px purple;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
+    
+/*.pulser {
+    width: 30px;
+    height: 30px;
+    background: #09f;
+    border-radius: 50%;
+    position: relative;
+    transition: all 2s ease-in-out; /* estado final si se quiere una cosa diferente al inicio y otra al final
+}
+.pulser:hover {
+    border-radius: 25%;
+    scale: 2;
+    background: purple;
+    box-shadow: 0 0 10px purple;
+    transition: 500ms /*la primera animacion;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+}
+*/
+
+

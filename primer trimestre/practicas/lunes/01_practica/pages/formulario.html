@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <form action="#" method="GET">
+        <p>
+            <label for="name">Nombre: (*)</label>
+            <input type="text" id="name" required>
+        </p>
+        <p>
+            <label for="email">Correo electronico:(*)</label>
+            <input type="email" id="email" required>
+        </p>
+        <p>
+            <label for="phone">Telefono:(*)</label>
+            <input type="tel" name="" id="phone" required>
+        </p>
+        <p>
+            <label for="date">Fecha de nacimiento: (*)</label>
+            <input type="date" id="date" required>
+        </p>
+        <fieldset>
+            <legend>Elija el tipo de habitacion del hotel: </legend>
+            <input type="radio" name="hotal" id="hotel1" value="economy" checked>
+            <label for="hotel1">Economica</label>
+            <input type="radio" name="hotal" id="hotel2" value="superior">
+            <label for="hotel2">Superior</label>
+            <input type="radio" name="hotal" id="hotel3" value="penthouse">
+            <label for="hotel3">PentHouse</label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Medio de transporte sl hotel
+            </legend>
+            <label for="medio">Medio de transporte:</label>
+            <select name="medio" id="medio">
+                <option value="auto">Auto</option>
+                <option value="bus">Bus</option>
+                <option value="plane">Plane</option>
+            </select>
+        </fieldset>
+        <p>
+            <label for="comments">Comentarios: </label>
+            <textarea id="comments" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <button type="submit" id="">Guardar</button>
+            <button type="reset" id="">Limpiar</button>
+        </p>
+    </form>
+</body>
+</html>
