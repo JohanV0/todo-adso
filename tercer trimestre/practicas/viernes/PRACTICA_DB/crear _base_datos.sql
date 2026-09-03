@@ -1,7 +1,7 @@
 --creamos la base de datos y utilizamos los parametros para que reconozca los caracteres especiales--
-mysql> CREATE DATABASE IF NOT EXISTS hello_mysql
-    -> CHARACTER SET utf8mb4
-    -> COLLATE utf8mb4_spanish_ci;
+CREATE DATABASE IF NOT EXISTS hello_mysql
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_spanish_ci;
 
 --ahora camos a utilizar la base de datos recien creada que fue hello_mysql--
 use hello_mysql
