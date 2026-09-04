@@ -91,4 +91,4 @@ CREATE TABLE pedido (
     cedula_cliente CHAR(10) NULL (FK a cliente puede ser NULL en pedidos anónimos),
     total DECIMAL(12,2) NOT NULL DEFAULT 0,
     metodo_pago VARCHAR(20) NULL
-)
+);
